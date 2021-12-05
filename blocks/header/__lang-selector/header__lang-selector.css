@@ -1,0 +1,9 @@
+.header__lang-selector {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-basis: 78px;
+  column-gap: 18px;
+  list-style: none;
+}
+

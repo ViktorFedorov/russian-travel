@@ -1,6 +1,10 @@
 .page {
   font-family: 'Inter', 'Arial', sans-serif;
-  /*min-width: 1100px;*/
-  /*max-width: 1600px;*/
-  margin: 0 auto;
+  color: #fff;
+  background-color: #2a2c2f;
+  margin: 0;
 }
+
+
+
+
