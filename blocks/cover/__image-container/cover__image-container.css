@@ -1,0 +1,16 @@
+.cover__image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*overlay*/
+.cover__image-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0, .3);
+}
+

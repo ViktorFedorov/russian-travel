@@ -47,72 +47,10 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__image-container/cover__image-container.css);
+@import url(../blocks/cover/__description/cover__description.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__text/cover__text.css);
 
-
-.grid-container {
-  box-sizing: border-box;
-  padding: 5px;
-  display: grid;
-  width: 80%;
-  /*height: 90vh;*/
-  background: rosybrown;
-  margin: 0 auto;
-
-  grid-template-columns: repeat(3, 150px);
-  grid-template-rows: 50px 50px 50px;
-  column-gap: 10px;
-  row-gap: 10px;
-
-  grid-template-areas:
-  "header header header"
-  "news news aside"
-  "news news aside"
-  "footer footer footer";
-}
-
-.grid-item {
-  text-align: center;
-  /*height: 50px;*/
-  line-height: 50px;
-  background: saddlebrown;
-  border: 2px solid #4e4d4d;
-  border-radius: 5px;
-}
-
-#one {
-  grid-area: header;
-  background: black;
-}
-
-#two {
-  grid-area: header;
-  background: black;
-}
-
-#three {
-  grid-area: header;
-  background: black;
-}
-
-#four {
-  grid-area: news;
-}
-
-#five {
-  grid-area: aside;
-}
-
-#six {
-  grid-area: footer;
-  background: rosybrown;
-}
-
-#seven {
-  grid-area: footer;
-  background: rosybrown;
-}
-
-#eight {
-  grid-area: footer;
-  background: rosybrown;
-}

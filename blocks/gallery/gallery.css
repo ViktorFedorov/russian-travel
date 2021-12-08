@@ -1,6 +1,6 @@
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
   gap: 16px;
   list-style: none;
   padding-left: 0;
@@ -9,6 +9,12 @@
 
 @media screen and (max-width: 1024px) {
   .gallery {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    gap: 16px;
   }
 }
