@@ -10,6 +10,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-selector/header__lang-selector.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -22,3 +23,96 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+
+
+
+@import url(../blocks/photo-grid/photo-grid.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+
+
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__url/place__url.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__url-link/place__url-link.css);
+@import url(../blocks/place/__image-container/place__image-container.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+
+
+
+.grid-container {
+  box-sizing: border-box;
+  padding: 5px;
+  display: grid;
+  width: 80%;
+  /*height: 90vh;*/
+  background: rosybrown;
+  margin: 0 auto;
+
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: 50px 50px 50px;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  grid-template-areas:
+  "header header header"
+  "news news aside"
+  "news news aside"
+  "footer footer footer";
+}
+
+.grid-item {
+  text-align: center;
+  /*height: 50px;*/
+  line-height: 50px;
+  background: saddlebrown;
+  border: 2px solid #4e4d4d;
+  border-radius: 5px;
+}
+
+#one {
+  grid-area: header;
+  background: black;
+}
+
+#two {
+  grid-area: header;
+  background: black;
+}
+
+#three {
+  grid-area: header;
+  background: black;
+}
+
+#four {
+  grid-area: news;
+}
+
+#five {
+  grid-area: aside;
+}
+
+#six {
+  grid-area: footer;
+  background: rosybrown;
+}
+
+#seven {
+  grid-area: footer;
+  background: rosybrown;
+}
+
+#eight {
+  grid-area: footer;
+  background: rosybrown;
+}

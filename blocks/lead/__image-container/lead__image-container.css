@@ -1,4 +1,5 @@
 .lead__image-container {
   max-width: 984px;
   margin-top: 64px;
+  font-size: 0;
 }

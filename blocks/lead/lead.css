@@ -1,4 +1,9 @@
 .lead {
   padding: 56px 148px 0;
-  outline: 1px solid lightgoldenrodyellow;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding: 56px 48px 0;
+  }
 }
