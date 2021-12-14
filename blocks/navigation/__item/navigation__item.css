@@ -1,0 +1,13 @@
+.navigation__item {
+    margin-right: 18px;
+}
+
+.navigation__item:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 690px) {
+    .navigation__item {
+        margin-bottom: 30px;
+    }
+}

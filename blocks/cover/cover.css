@@ -3,11 +3,10 @@
   margin: 0 auto;
 }
 
-/*.photo-grid:before {*/
-/*  content: "";*/
-/*  display: block;*/
-/*  width: 100vw;*/
-/*  height: 100vh;*/
-/*  background: red;*/
-/*}*/
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 

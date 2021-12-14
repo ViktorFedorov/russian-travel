@@ -4,6 +4,14 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    padding: 56px 48px 0;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

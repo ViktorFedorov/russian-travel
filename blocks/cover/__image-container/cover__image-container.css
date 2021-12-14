@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 /*overlay*/
@@ -12,5 +13,11 @@
   width: 100%;
   height: 100%;
   background: rgba(0,0,0, .3);
+  transition: background .6s ease-in-out;
+}
+
+/*hover-effect*/
+.cover__image-container:hover.cover__image-container::before {
+  background: rgba(0,0,0, .8);
 }
 
