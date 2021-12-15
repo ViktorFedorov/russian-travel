@@ -3,3 +3,9 @@
   margin-top: 64px;
   font-size: 0;
 }
+
+@media screen and (max-width: 400px) {
+  .lead__image-container {
+    margin-top: 40px;
+  }
+}
