@@ -1,0 +1,9 @@
+.cover-margins {
+  margin: 92px 48px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover-margins {
+    margin: 92px 0 0;
+  }
+}

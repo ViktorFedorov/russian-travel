@@ -1,0 +1,15 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  background:rgba(0, 0, 0, .3);
+  transition: .4s ease-in;
+}
+
+.cover__link:hover {
+  background:rgba(0, 0, 0, .8);
+}

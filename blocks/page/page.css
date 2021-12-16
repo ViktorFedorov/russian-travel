@@ -3,6 +3,9 @@
   color: #fff;
   background-color: #2a2c2f;
   margin: 0;
+  /*-moz-osx-font-smoothing: grayscale;*/
+  /*-webkit-font-smoothing: antialiased;*/
+  /*text-rendering: optimizeLegibility;*/
 }
 
 
