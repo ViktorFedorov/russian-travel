@@ -1,5 +1,5 @@
 .footer {
-    padding: 80px 48px;
+    padding: 80px 48px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,6 +15,6 @@
 @media screen and (max-width: 690px) {
   .footer {
     display: block;
-    padding: 64px 16px;
+    padding: 60px 16px 24px;
   }
 }
