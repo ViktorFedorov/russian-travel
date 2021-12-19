@@ -1,6 +1,6 @@
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(229px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
   gap: 16px;
   list-style: none;
   padding-left: 0;
@@ -18,3 +18,4 @@
     gap: 16px;
   }
 }
+
